@@ -1,0 +1,20 @@
+@import './style.config.css';
+@import './header.css';
+
+body {
+    background-color: #ccc;
+}
+
+.test {
+    transform: translateX(10px);
+    color: var(--mainColor);
+
+    & .da {
+        background-color: var(--mainColor);
+        color: var(--green);
+    }
+    
+    &-header {
+        background: #000;
+    }
+}

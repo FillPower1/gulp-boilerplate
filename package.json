@@ -1,0 +1,36 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "keywords": [
+    "postcss, babel, javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 version"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "browser-sync": "^2.26.13",
+    "cross-env": "^7.0.3",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1",
+    "postcss": "^8.2.2",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.3",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
